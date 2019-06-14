@@ -27,9 +27,9 @@ WSLの有効化,ubuntuのインストールを完了する
 ・VSCodeでターミナルを起動し以下のcodeを入力する  
 `$ sudo vim /etc/passwd`  
 おそらく一番下に  
-Ubuntuユーザ名:x:1000:1000:"",,,:/home/ユーザ名:/bin/bash  
+Ubuntuユーザ名::1000:1000:"",,,:/home/ユーザ名:/bin/bash  
 となっている場所があるので  
-Ubuntuユーザ名:x:1000:1000:"",,,:/mnt/c  
+Ubuntuユーザ名::1000:1000:"",,,:/mnt/c  
 に書き換える(vimの使い方はググって)  
 ・VSCodeをリブートする  
   
